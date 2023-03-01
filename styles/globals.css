@@ -105,3 +105,29 @@ a {
     color-scheme: dark;
   }
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  list-style-type: none;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.pagination a:hover,
+.pagination span.active {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
